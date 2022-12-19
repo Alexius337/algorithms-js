@@ -1,0 +1,27 @@
+One alternative to time is counting operations.
+
+Using our example from before:
+function addUpTo2(n) {
+    return n * (n + 1) / 2;
+}
+
+There are 3 operations in this example.
+One multiplication, one addition, and one division.
+It does not matter what the size of n is. 
+
+In the less optimal solution, there were more operations.
+
+function addUpTo(n) {
+    let total = 0;
+    for (let i=1; i <= n; i++) {
+        total += i;
+    }
+    return total
+}
+
+There are as many plus operations as the size of n.
+If n is 100, there are 100 plus operations.
+If n is a million, there are a million plus operations. 
+
+The number of operations grows proportionally with the size of n. 
+
