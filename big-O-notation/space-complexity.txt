@@ -1,0 +1,37 @@
+The amount of memory that is taken up.
+
+As n grows, the size of the input grows.
+
+Auxiliary space complexity:
+Space required by algorithm, not including space taken by inputs.
+
+Rules of thumb:
+1. Most primitives (booleans, numbers, undefined, null) are constant space.
+2. Strings require O(n) space (where n is string length).
+3. Reference types (arrays, objects) are O(n) where n is length or number of keys.
+
+Example:
+function sum(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i]
+    }
+    return total
+}
+
+One number: "total"
+Another number: "i"
+Space complexity -> constant space O(1)
+
+Another example:
+function double(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(2 * arr[i]);
+    }
+    return newArr;
+}
+
+10 items -> 10 items
+Space is proportional to n 
+O(n) space complexity 
