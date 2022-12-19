@@ -1,0 +1,25 @@
+Time complexity log O(n)
+
+log2(8) = 3 
+means 2^3 = 8
+
+log === log2 
+
+log2(8) = 3
+divide by 2 until the answer is 1 or less
+8 / 2  = 4
+4 / 2 = 2
+2 / 2 = 1
+= 3 
+
+O(log n ) is GREAT time complexity 
+Almost as good as constant time 
+
+O(nlog n) is worse than O(n) but better than O(n^2)
+
+Why use log time?
+Certain searching algorithms involve log time complexity
+Efficient sorting algorithms invovle logs 
+
+Recursion sometimes involves log space complexity 
+
