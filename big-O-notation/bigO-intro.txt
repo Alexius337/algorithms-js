@@ -1,0 +1,17 @@
+What is Big O?
+
+Formalized fuzzy counting.
+
+Allows us to talk formally about how the runtime of an algorithm
+grows as the inputs grow.
+
+Does not care about the details, only the trends.
+
+O(1) Linear if f(n) = n
+O(n^2) Quadratic if f(n) = n^2 
+O(n) Constant if f(n) = 1 
+
+Could be something entirely different! 
+
+Big O = worst case scenario, upper bound for runtime. 
+
