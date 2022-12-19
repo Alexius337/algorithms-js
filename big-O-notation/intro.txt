@@ -1,0 +1,10 @@
+What is the need for Big O Notation?
+
+System for comparing the efficiency of code.
+Useful to compare how good different algorithm solutions are.
+Can discuss trade-offs between algorithms.
+Understand how to debug code for inefficiencies. 
+
+Oftentimes comes up in interviews!
+
+
