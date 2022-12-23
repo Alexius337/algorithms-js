@@ -1,0 +1,19 @@
+Objects in JavaScript 
+
+Unordered data structures
+Everything is store in key-value pairs
+Work well when you don't need order
+Fast access, insertion, and removal 
+
+Insertion O(1)
+Removal O(1)
+Searching O(n)
+Access O(1)
+
+Object Methods:
+
+Object.keys O(n)
+Object.values O(n)
+Object.entries O(n)
+hasOwnProperty O(1)
+
