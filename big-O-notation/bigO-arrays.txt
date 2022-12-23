@@ -1,0 +1,35 @@
+Arrays are ORDERED lists.
+Can be useful when you need order.
+Very fast to access.
+Can be costly.
+
+Why are arrays slow?
+
+Big O of Arrays:
+
+Insertion: it depends
+Removal: it depends
+
+Searching: O(n)
+Access: O(1)
+
+Adding to the end (pushing): O(1) constant time
+
+Adding/removing beginning of array: O(n)
+Need to re-index every single element of the array!
+
+Push/Pop always faster than Shift/Unshift 
+
+
+Built in Array methods in JavaScript:
+
+Push O(1)
+Pop O(1)
+Shift O(n)
+Unshift O(n)
+Concat O(n)
+Slice O(n)
+Splice O(n)
+Sort O(n*logn)
+forEach/map/filter/reduce O(n)
+
