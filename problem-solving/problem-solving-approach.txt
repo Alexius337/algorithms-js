@@ -1,0 +1,62 @@
+What is an algorithm?
+A process or set of steps to accomplish a certain task.
+
+How do you improve?
+1. Devise a plan for solving problems
+2. Master common problem solving patterns
+
+Problem solving
+1. Understand the problem
+2. Explore concrete examples
+3. Break it down 
+4. Solve/simplify 
+5. Look back and refactor 
+
+Understand the problem:
+1. Can I restate the problem in my own words?
+2. What are the inputs that go into the problem?
+3. What are the outputs that should come from the solution?
+4. Can the outputs be determined from the inputs?
+5. How should I label the important pieces of data in the problem?
+
+Example:
+Write a function which takes two numbers and returns their sum.
+
+Restate: Implement addition.
+Inputs: 
+Two numbers. Integers? Floating points exclusively? How large?
+Outputs: 
+One number. Integer? Float? 
+Can outputs be determined from inputs?:
+What if someone only passes one number? Do we add zero or return undefined?
+How should I label the important pieces of data?:
+function add(), num1, num2, output 
+
+Exploring concrete examples:
+Can help understand the problem.
+Can provide sanity checks for the solution.
+Can learn more information by doing these examples.
+
+1. Start with simple examples. Input and output. 
+2. Progress to more complex examples.
+3. Explore examples with empty inputs.
+4. Explore examples with invalid inputs. 
+
+Concrete example:
+Write a function which takes in a string 
+and returns counts of each character in the string. 
+
+charCount("aaaa"); // {a:4}
+charCount("hello"); //{h:1, e:1, l:2, o:1} include letters that are not in there?
+charCount("my phone number is 123-456-7890");
+// what do we return in this case?
+// return spaces? return numbers?
+charCount("Hello hi"); // uppercase separate? ignore casing? 
+charCount(""); // what do we return? empty object? undefined? error?
+charCount(123); // what do we return for other data type inputs?
+
+Break it down:
+Steps you need to take to solve the problem.
+Little comments outlining the process.
+Show the steps to the reviewer. 
+
