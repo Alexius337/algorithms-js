@@ -60,3 +60,7 @@ Steps you need to take to solve the problem.
 Little comments outlining the process.
 Show the steps to the reviewer. 
 
+Solve the problem if you can.
+If you can't, simplify and solve the more simple problem.
+Focus on everything else other than the part blocking you.
+
