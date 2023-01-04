@@ -1,0 +1,11 @@
+Frequency Counters patterns
+
+Use an object in JavaScript to collect values and their frequencies 
+Can avoid the need for nested loops and O(n^2) operations with arrays/strings
+
+Usually O(n) time compared to the easier solution which is O(n^2)
+
+Example:
+Write a function called same, which accepts two arrays.
+The function should return true if every value in the array has it's corresponding value squared in the second array.
+The frequency of the values must be the same. 
